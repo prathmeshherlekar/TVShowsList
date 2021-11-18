@@ -1,0 +1,27 @@
+.card{
+    height:35rem;
+    width:15rem;
+    background: white;
+    border-radius: 16px;
+    margin-top: 4rem;
+    padding:0px;
+    padding-bottom: 10px;
+}
+.cardImg{
+    height:20rem;
+    width:15rem;
+    border-radius: 16px;
+}
+.name{
+    display: flex;
+    padding:1rem;
+    justify-content: center;
+    font-weight: 800;
+    font-size: medium;
+}
+.details{
+    padding-left: 1rem;
+    margin-top: 10px;
+    display:inline-grid;
+    grid-template-columns: 2fr; 
+}
